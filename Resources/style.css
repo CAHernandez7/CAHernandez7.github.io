@@ -340,6 +340,17 @@ header a:hover {
     font-size: 2rem;
 }
 
+.about-me-text a {
+    text-decoration: underline;
+    background-color: inherit;
+    color: inherit;
+}
+
+.about-me-text a:hover {
+    color: rgb(17, 83, 17);
+    
+}
+
 .about-me p {
     text-align: center;
     background-color: transparent;
