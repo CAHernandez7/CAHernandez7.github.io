@@ -34,9 +34,13 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 560px) {
     body {
         height: 3500px;
+    }
+
+    #abt-me, #my-exp {
+        font-size: 1rem;
     }
 }
 
