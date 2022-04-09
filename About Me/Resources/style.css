@@ -43,7 +43,7 @@
         font-size: 1rem;
     }
 
-    #my-exp {
+    .about-me-title #my-exp{
         margin-right: 0;
     }
 }
@@ -188,7 +188,7 @@ header #nav-links:hover {
 
 .about-me-title #my-exp {
     font-size: 1.6rem;
-    margin-right: 1.5rem;
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 1300px) {
