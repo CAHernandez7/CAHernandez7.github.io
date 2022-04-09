@@ -42,6 +42,10 @@
     #abt-me, #my-exp {
         font-size: 1rem;
     }
+
+    #my-exp {
+        margin-right: 0;
+    }
 }
 
 
