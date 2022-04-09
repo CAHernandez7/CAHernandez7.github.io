@@ -27,6 +27,14 @@
     height: 2500px;
   }
 
+  @media only screen and (max-width: 1100px) {
+    body {
+        grid-template-rows: repeat(15, 1fr);
+        height: 3000px;
+    }
+}
+      
+
 
 
 /*Header area */
@@ -43,6 +51,7 @@ header {
     background: linear-gradient(300deg, rgba(36,36,0,1) 0%, rgba(223,125,12,1) 0%, rgba(255,196,0,1) 100%);
     height: 6rem;
 }
+
 
 header img {
     display: none;
@@ -141,6 +150,8 @@ header #nav-links:hover {
 }
 
 /* About Me Main Title Area */
+
+
 .about-me-title {
     grid-area: 2 / 2 / 3 / 6;
     display: flex;
@@ -151,6 +162,7 @@ header #nav-links:hover {
     justify-content: center;
     margin-right: 1rem;
 }
+     
 
 .about-me-title #abt-me {
     margin-right: 1rem;
@@ -161,9 +173,40 @@ header #nav-links:hover {
 .about-me-title #my-exp {
     font-size: 1.6rem;
     margin-right: 1.5rem;
-
 }
 
+@media only screen and (max-width: 1300px) {
+    .about-me-title {
+        flex-direction: column;
+        margin-left: -8rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-me-title {
+        grid-area: 2 / 1 / 2 / 11;
+        flex-direction: row;
+        text-align: center;
+        margin-right: 0;
+        align-content: space-around;
+        margin-left: 0;
+        justify-content: center;;
+    }
+
+    .about-me-title #abt-me, #my-exp {
+        justify-content: center;
+        align-items: center;
+        justify-items: center ;
+        align-content: center;
+        margin-right: .5rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #my-exp {
+        margin-right: 0;
+    }
+}
 
 .about-me-hero {
     grid-area: 2 / 5 / 3 / 10;
@@ -178,6 +221,22 @@ header #nav-links:hover {
 
 }
 
+@media only screen and (max-width: 1100px) {
+    .about-me-hero{
+        grid-area: 3 / 2 / 6 / 10 ;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        margin-top: 0rem;
+    }
+
+    .about-me-hero h3 {
+        margin-top: 0 ;
+    }
+
+
+}
+
 .about-me-hero h3 {
     z-index: 10;
     grid-area: 4 / 1 / 5 / 5 ;
@@ -188,15 +247,36 @@ header #nav-links:hover {
     border-top: 3px solid white;
 }
 
-
-
-
+@media only screen and (max-width: 1250px) {
+    .about-me-hero h3 {
+        margin-top: 0;
+        font-size: 1rem;
+        grid-area: 4 / 1 / 4 / 5 ;
+        margin-top: 1rem;
+        border-top: none;
+    }
+}
 
 /*My Goal Section */
 .about-me-goal-cont {
     grid-area: 3 / 2 / 4 / 10;
     display: flex;
+}
 
+@media only screen and (max-width: 1100px) {
+    .about-me-goal-cont {
+        grid-area: 7 / 1 / span 1 / span 10 ;
+    }
+
+    .about-me-goal h2 {
+        text-align: center;
+        grid-area: 1 / 1 / 1 / 6;
+        margin-top: 1.5rem;
+    }
+
+    .about-me-para {
+        text-align: center;
+    }
 }
 
 .about-me-goal {
@@ -250,6 +330,15 @@ header #nav-links:hover {
 }
 
 
+@media only screen and (max-width: 1100px) {
+    .projects {
+        grid-area: 8 / 2 / 11 / 9;
+    }
+}
+
+
+
+
 /*Contact Info */
 .contact-info {
     display: grid;
@@ -287,6 +376,12 @@ header #nav-links:hover {
     letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 1100px) {
+    .contact-info {
+        grid-area: 14 / 1 / span 1 / span 10;
+    }
+}
+
 
 
 /*Copyright */
@@ -304,6 +399,13 @@ footer h3 {
     font-family: 'Cardo', serif;
     font-size: 1rem;
 }
+
+@media only screen and (max-width: 1100px) {
+    footer {
+        grid-area: 15 / 1 / span 1 / span 10 ;
+    }
+}
+
  
 
 

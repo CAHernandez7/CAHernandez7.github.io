@@ -389,6 +389,13 @@ header a:hover {
     overflow: hidden;
 }
 
+.about-me-container a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+
+}
+
 
 @media only screen and (max-width: 1015px) {
     .about-me-container figure {
