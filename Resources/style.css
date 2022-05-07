@@ -205,6 +205,7 @@ header a:hover {
     justify-content: space-between;
     text-align: center;
     justify-items: center;
+    margin-bottom: 10%;
 
 }
 
@@ -236,14 +237,14 @@ header a:hover {
 
 
 .portfolio-img-container img {
-    width: 75%;
+    width: 65%;
     margin: 1rem 0 .5rem; 
     min-width: 13rem;
 }
 
 @media only screen and (max-width: 1510px) {
     .portfolio figure {
-        width: 50%;
+        max-width: 50%;
         background-color: transparent;
         flex-wrap: wrap;
         min-width: 10rem;

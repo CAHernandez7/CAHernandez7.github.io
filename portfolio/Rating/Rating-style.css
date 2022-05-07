@@ -179,7 +179,11 @@ header a:hover {
     line-height: 1.5rem;
     font-size: 1.25rem;
     border-radius: 3px;
+}
 
-
+.review-box button:hover {
+    top: 5px;
+    background-color: red;
+    color: whitesmoke;
 }
 
