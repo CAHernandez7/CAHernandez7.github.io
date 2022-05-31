@@ -1,8 +1,8 @@
 
 /** {
-    font-family: 'Alegreya', serif; (p)
-    font-family: 'Cardo', serif; (H)
-    font-family: 'Goudy Bookletter 1911', serif; (cap)
+    font-family: 'Alegreya', serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Cardo', serif;
 } */
 
 * {
@@ -59,8 +59,11 @@
      line-height: .78;
      font-size: .85rem;
      color: rgb(255, 198, 92);
-     font-family: 'Cardo', serif;
      padding: 1rem 0;
+ }
+
+ header .header-title h1 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
  }
 
  @media only screen and (min-width: 768.1px) {
@@ -137,6 +140,7 @@ header a:hover {
 
 .hero-picture h2 {
     font-size: 3rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     align-self: center;
     color: white;
     padding: 0 .5rem;
@@ -297,6 +301,6 @@ footer{
 
 footer h3 {
     background-color: transparent;
-    font-family: 'Cardo', serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 1rem;
 }
