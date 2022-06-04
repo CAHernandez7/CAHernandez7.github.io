@@ -63,7 +63,7 @@
      text-align: left;
      margin-left: 5px;
      line-height: .9;
-     font-size: .85rem;
+     font-size: .8rem;
      color: rgb(255, 198, 92);
      padding: 1rem 0;
  }
@@ -90,7 +90,7 @@
 }
 
  header .title-bottom {
-     margin-left: 1.25rem;
+     margin-left: .5rem;
  }
 
  header ul {
@@ -288,6 +288,7 @@ header a:hover {
     font-size: 2rem;
     border-bottom: red solid 3px;
     background: transparent;
+    margin-bottom: 1rem;
 }
 
 .contact-info-container {
