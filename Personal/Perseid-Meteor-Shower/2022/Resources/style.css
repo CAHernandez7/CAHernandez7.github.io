@@ -91,6 +91,18 @@ header img {
     margin-bottom: 50px;
 }
 
+@media only screen and (min-width: 768.1px){ 
+    .information-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information-area p {
+        width: 70%;
+    }
+}
+
 /* Questions */
 .questions-area {
     display: flex;
@@ -125,9 +137,27 @@ header img {
     margin-bottom: 50px;
 }
 
+
+
 .FYI * {
     color:rgb(110, 223, 35);
 
+}
+
+.FYI-area p {
+    font-size: 1.05rem;
+}
+
+@media only screen and (min-width: 768.1px){
+    .FYI {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FYI p {
+        width: 70%;
+    }
 }
 
 footer {
