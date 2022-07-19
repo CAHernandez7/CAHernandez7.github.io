@@ -79,7 +79,6 @@ header img {
 
 .information-area button {
     color: rgb(110, 223, 35);
-    text-decoration-color: rgb(110, 223, 35);
     background-color: rgb(22, 22, 64);
     border:rgb(12, 24, 47) 1px solid;
     font-size: 1.75rem;
@@ -90,7 +89,6 @@ header img {
 .information-area button:hover {
     color: whitesmoke;
     background-color: rgb(64, 64, 96);
-
 }
 
 .information-area h2 {
