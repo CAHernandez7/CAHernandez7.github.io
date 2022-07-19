@@ -77,6 +77,22 @@ header img {
     text-align: center;
 }
 
+.information-area button {
+    color: rgb(110, 223, 35);
+    text-decoration-color: rgb(110, 223, 35);
+    background-color: rgb(22, 22, 64);
+    border:rgb(12, 24, 47) 1px solid;
+    font-size: 1.75rem;
+    margin: 0 1rem 1rem;
+    padding: .75rem .75rem;
+}
+
+.information-area button:hover {
+    color: whitesmoke;
+    background-color: rgb(64, 64, 96);
+
+}
+
 .information-area h2 {
     font-family: 'Shrikhand', serif;
     font-size: 100;
@@ -89,6 +105,12 @@ header img {
     color: rgb(12, 24, 47);  
     font-size: 1.2rem;
     margin-bottom: 50px;
+}
+
+.information-area a {
+    background-color: inherit;
+    color: inherit;
+
 }
 
 @media only screen and (min-width: 768.1px){ 

@@ -78,7 +78,7 @@
      }
 
      header ul a {
-        font-size: 1rem;
+        font-size: 1.1rem;
      }
 }
 
@@ -87,6 +87,14 @@
         font-size: 1.1rem;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    header ul a {
+        font-size: 1.3rem;
+    }
+}
+
+
 
  header .title-bottom {
      margin-left: .6rem;
@@ -125,6 +133,8 @@ header a:hover {
     color: orange;
     margin-bottom: 10px;
 }
+
+
 
 /* Hero Area */
 
