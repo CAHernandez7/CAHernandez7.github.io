@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Berkshire Swash", "Times New Roman", sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: rgb(69, 115, 130);
+    color: rgb(195, 235, 235);
+    text-align: center;
+  }
+
+  html {
+    font-size: 20px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 768px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768.1px) {
+    html {
+        max-width: 992px;
+        min-width: 768.2px;
+    }
+}
+
+@media only screen and (min-width: 992.2px) {
+    html {
+        min-width: 992px;
+        max-width: none;
+    }
+}
+
+p {
+    font-family: 'Georgia', sans-serif;
+    margin: 0 1rem;
+}
+
+h2, h3, h4 {
+    font-family: 'Shrikhand', serif;
+    font-style: normal;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    text-align: center;
+    border-bottom: solid rgb(22, 22, 64) 5px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.head-img {
+width: 100%;
+border: rgb(174, 174, 14) 2px solid;
+margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768.1px){
+    .head-img {
+        width: 70%;
+
+    }
+}
+
+main h2 {
+    font-family: 'Shrikhand', serif;
+    font-size: 1.7rem;
+    color: rgb(12, 24, 47);
+}
+
+/* Overview */
+.overview {
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 768.1px){ 
+    body {
+        width: 100%;
+        text-align: center;
+    }
+
+    main {
+        text-align: center;
+        width: 100%;
+        padding: 0rem 10rem;
+    }
+
+}
+
+.overview p {
+    color: rgb(12, 24, 47);
+    font-size: 1rem;
+}
+
+/* Location */
+
+.location {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.location p {
+    color:rgb(12, 24, 47);
+    font-size: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+#location-p {
+    margin-bottom: 1rem;
+}
+
+.location a {
+    color:rgb(110, 223, 35);
+}
+
+/* Weather */
+
+.weather {
+    color:rgb(12, 24, 47);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.weather p {
+    color:rgb(12, 24, 47);
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.weather a {
+    color:rgb(110, 223, 35);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer * {
+    color: rgb(12, 24, 47);   
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+footer h4 {
+    margin-top: 20px;
+}
+
+
+
+
+
