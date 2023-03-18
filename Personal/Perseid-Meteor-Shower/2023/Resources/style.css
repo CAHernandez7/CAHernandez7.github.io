@@ -4,8 +4,8 @@
     font-family: "Berkshire Swash", "Times New Roman", sans-serif;
     list-style-type: none;
     box-sizing: border-box;
-    background-color: rgb(69, 115, 130);
-    color: rgb(195, 235, 235);
+    background-color: rgb(31, 91, 160);
+    color: rgb(186, 214, 214);
   }
 
   html {
@@ -95,12 +95,12 @@ header img {
     font-family: 'Shrikhand', serif;
     font-size: 100;
     font-size: 2.15rem;
-    color: rgb(12, 24, 47);
+    color: rgb(119, 30, 30);
     margin-bottom: 20px;
 }
 
 .information-area p {
-    color: rgb(12, 24, 47);  
+    color: rgb(186, 214, 214);  
     font-size: 1.2rem;
     margin-bottom: 50px;
 }
@@ -131,7 +131,7 @@ header img {
 }
 
 .question-area {
-    color: rgb(12, 24, 47); 
+    color: rgb(186, 214, 214); 
     text-align: center;
     border:rgb(174, 174, 14) 1px solid;
     margin: 0 5px 0;
@@ -186,7 +186,7 @@ footer {
 }
 
 footer * {
-    color: rgb(12, 24, 47);   
+    color: rgb(186, 214, 214);   
 }
 
 footer h2 {
