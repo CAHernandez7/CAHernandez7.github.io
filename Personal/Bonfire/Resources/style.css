@@ -106,7 +106,7 @@ header img {
 
 .information-area p {
     color: rgb(0, 0, 0);  
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 50px;
 }
 
@@ -125,6 +125,7 @@ header img {
 
     .information-area p {
         width: 70%;
+        font-size: 1.2rem;;
     }
 }
 
