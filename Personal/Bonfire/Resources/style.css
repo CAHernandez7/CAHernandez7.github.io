@@ -88,6 +88,7 @@ header img {
     font-size: 1.75rem;
     margin: 0 1rem 1rem;
     padding: .75rem .75rem;
+    display: none;
 }
 
 .information-area button:hover {
@@ -144,7 +145,6 @@ header img {
     border: 3px grey solid;
     padding: 5px; 
     text-decoration: underline;
-    display: none;
 
 }
 
