@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Berkshire Swash", "Times New Roman", sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: rgb(31, 91, 160);
+    color: rgb(186, 214, 214);
+  }
+
+  html {
+    font-size: 20px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 768px;
+}
+
+@media only screen and (min-width: 768.1px) {
+    html {
+        max-width: 992px;
+        min-width: 768.2px;
+    }
+}
+
+@media only screen and (min-width: 992.2px) {
+    html {
+        min-width: 992px;
+        max-width: none;
+    }
+}
+
+p {
+    font-family: 'Georgia', sans-serif;
+}
+
+h2, h3, h4 {
+    font-family: 'Shrikhand', serif;
+    font-style: normal;
+}
+
+/*Header section */
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    border-bottom: solid rgb(22, 22, 64) 5px;
+    margin-bottom: 50px;
+}
+
+
+header img {
+    width: 100%;
+    border: rgb(174, 174, 14) 2px solid;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768.1px){
+    header img {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992.2px) {
+    header img {
+        width: 65%;
+    }
+}
+
+
+/*Info area */
+.information-area {
+    text-align: center;
+}
+
+.information-area button {
+    color: rgb(110, 223, 35);
+    background-color: rgb(22, 22, 64);
+    border:rgb(12, 24, 47) 1px solid;
+    font-size: 1.75rem;
+    margin: 0 1rem 1rem;
+    padding: .75rem .75rem;
+    display: none;
+}
+
+.information-area button:hover {
+    color: whitesmoke;
+    background-color: rgb(64, 64, 96);
+}
+
+.information-area h2 {
+    font-family: 'Shrikhand', serif;
+    font-size: 100;
+    font-size: 2.15rem;
+    color: rgb(119, 30, 30);
+    margin-bottom: 20px;
+}
+
+.information-area p {
+    color: rgb(186, 214, 214);  
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.information-area a {
+    background-color: inherit;
+    color: inherit;
+
+}
+
+@media only screen and (min-width: 768.1px){ 
+    .information-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information-area p {
+        width: 70%;
+    }
+}
+
+/* Questions */
+.questions-area {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.question-area {
+    color: rgb(186, 214, 214); 
+    text-align: center;
+    border:rgb(174, 174, 14) 1px solid;
+    margin: 0 5px 0;
+    width: 33%;
+    padding: 20px; 
+}
+
+.question-area * {
+    color: inherit;
+}
+
+.question-area h3 {
+    text-decoration: underline;
+    margin-bottom: .5rem;
+}
+
+/* FYI Area */
+
+.FYI-area {
+    color: rgb(12, 24, 47); 
+    text-align: center;
+    margin: 0 5px 0;
+    margin-bottom: 50px;
+}
+
+
+
+.FYI * {
+    color:rgb(110, 223, 35);
+
+}
+
+.FYI-area p {
+    font-size: 1.05rem;
+}
+
+@media only screen and (min-width: 768.1px){
+    .FYI {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FYI p {
+        width: 70%;
+    }
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer * {
+    color: rgb(186, 214, 214);   
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+    font-size: 100;
+    font-size: 1.5rem;
+}
+
+footer h4 {
+    margin-top: 20px;
+}
