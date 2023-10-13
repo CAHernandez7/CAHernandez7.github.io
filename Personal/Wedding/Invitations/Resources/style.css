@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: "Berkshire Swash", "Times New Roman", sans-serif;
+    font-family: 'Young Serif', serif;
+    font-family: 'Montserrat', sans-serif;
     list-style-type: none;
     box-sizing: border-box;
-    background-color: rgb(31, 91, 160);
+    background-color: rgb(67, 79, 62, 1);
     color: rgb(186, 214, 214);
   }
 
@@ -30,12 +32,12 @@
 }
 
 p {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2, h3, h4 {
-    font-family: 'Shrikhand', serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
 }
 
 /*Header section */
@@ -47,15 +49,16 @@ header {
 
 header h1 {
     font-weight: 200;
+    font-family: 'Young Serif', serif;
     font-size: 2.5rem;
-    border-bottom: solid rgb(22, 22, 64) 5px;
-    margin-bottom: 50px;
+    border-bottom: none; 
+    padding: 20px 20px 40px;
 }
 
 
 header img {
     width: 100%;
-    border: rgb(174, 174, 14) 2px solid;
+    border: rgb(67, 79, 62, 0.8) 2px solid;
     margin-bottom: 50px;
 }
 
@@ -102,8 +105,12 @@ header img {
 
 .information-area p {
     color: rgb(186, 214, 214);  
-    font-size: 1.2rem;
-    margin-bottom: 50px;
+    font-size: 1.1rem;
+    padding: 10px 0px;
+}
+
+.information-area .Names {
+    font-size: 1.3rem;
 }
 
 .information-area a {
@@ -129,14 +136,15 @@ header img {
     display: flex;
     width: 100%;
     margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .question-area {
     color: rgb(186, 214, 214); 
     text-align: center;
-    border:rgb(174, 174, 14) 1px solid;
+    border:rgb(124, 124, 124) 1px solid;
     margin: 0 5px 0;
-    width: 33%;
+    width: 50%;
     padding: 20px; 
 }
 
@@ -147,6 +155,7 @@ header img {
 .question-area h3 {
     text-decoration: underline;
     margin-bottom: .5rem;
+    font-style: italic;
 }
 
 /* FYI Area */
@@ -187,13 +196,34 @@ footer {
 }
 
 footer * {
-    color: rgb(186, 214, 214);   
+    color: rgb(186, 214, 214); 
+      
 }
 
 footer h2 {
     margin-bottom: 1rem;
     font-size: 100;
     font-size: 1.5rem;
+}
+
+footer .registry-list-div {
+    display: flex;
+    padding: 35px 10px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+footer a {
+    text-decoration: underline;
+    font-family: inherit;
+
+}
+footer a:hover {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0px 50px;
 }
 
 footer h4 {
