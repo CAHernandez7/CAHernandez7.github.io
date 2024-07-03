@@ -98,6 +98,9 @@ main h2 {
     font-size: 1rem;
 }
 
+.overview a {
+    color:rgb(110, 223, 35);
+}
 /* Location */
 
 .location {
